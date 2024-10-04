@@ -1,0 +1,8 @@
+{
+    "num_features": 20,
+    "num_classes": 4,
+    "start_num_samples": 5000,
+    "start_drift_speed": 0,
+    "num_centroids": 50,
+    "num_drifting_centroids": 50
+}

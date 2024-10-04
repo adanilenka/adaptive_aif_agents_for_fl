@@ -1,0 +1,29 @@
+{
+    "variables": {
+        "CPU_USAGE": 10,
+        "MEMORY_USAGE": 10,
+        "BATCH_SIZE": 5,
+        "LR": 4,
+        "TIME": 2,
+        "PERFORMANCE": 2
+    },
+    "slo_list": [
+        "TIME",
+        "PERFORMANCE"
+    ],
+    "configuration_variables":[
+        "BATCH_SIZE",
+        "LR"
+    ],
+    "targets": {
+        "PERFORMANCE": 1,
+        "TIME": 1
+    },
+    "slo_description": {
+        "PERFORMANCE": 0.97,
+        "TIME": 2
+    },
+    "global_slo":{
+        "PERFORMANCE": 0.95
+    }
+}
